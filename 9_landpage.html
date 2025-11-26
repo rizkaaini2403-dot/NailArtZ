@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* ini adalah internal css */
+
+      header {
+        background-color: #ff0caaee;
+        text-align: center;
+        padding: 15px 0;
+        color: rgb(255, 255, 255);
+      }
+
+      nav {
+        background-color: #d6089ce7;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: whitesmoke;
+        margin: 0 15px;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+        color: rgb(144, 152, 155);
+      }
+
+      .hero {
+        text-align: center;
+        padding: 50px 0;
+        height: 400px;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        /* background-color: grey; */
+        background: url('https://i.pinimg.com/736x/4c/96/c4/4c96c41a7ee47f10e8db9e9d13104cae.jpg') 
+        no-repeat center center/cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 30px;
+      }
+
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px 0;
+        /* background-color: red; */
+      }
+
+      .services {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .service {
+        flex: 1;
+        min-width: 250px;
+        background: #f4f4f4;
+        padding: 0px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        object-fit: cover;
+        background-size: cover;
+      }
+      .layanan-1 {
+        background-image: url('https://i.pinimg.com/736x/a4/e0/e6/a4e0e6a9e33e4b39aac26c74f3128604.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        height: 180px;
+      }
+      .layanan-2 {
+        background-image: url('https://i.pinimg.com/736x/37/dd/7a/37dd7acff54f462a5752164e61d1bbd5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        height: 180px;
+      }
+
+      .layanan-3 {
+        background-image: url('https://i.pinimg.com/1200x/41/00/2f/41002faef316596b8df5f464c51ecc9a.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        height: 180px;
+      }
+
+      .layanan-1, .layanan-2, .layanan-3 {
+        margin: auto;
+        border-radius: 8px;
+      }
+
+      .service h3 {
+        color: #ef07bd;
+      }
+
+      form {
+        background: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      input,
+      textarea {
+        width: 99%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      button {
+        background: #e704c9;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #036ca9;
+      }
+
+      footer {
+        text-align: center;
+        background: #333;
+        color: white;
+        padding: 10px 0;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Selamat Datang Di Nail Art Rz</h1>
+      <p>percantik kukumu percantik harimu</p>
+    </header>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#layanan">Layanan</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <section class="hero" id="beranda">
+      <h1>Selamat datang di Website kami</h1>
+    </section>
+
+    <section class="container" id="layanan">
+      <h2 style="text-align: center">Layanan Kami</h2>
+      <div class="services">
+        <div class="service">
+          <div class="layanan-1"></div>
+          <h3>Pedicure</h3>
+          <p>Classic Pedicure, Spa Pedicure, Gel Pedicure, French Pedicure dan lainnya</p>
+        </div>
+        <div class="service">
+          <div class="layanan-2"></div>
+          <h3>Nail Polish</h3>
+          <p>Regular Nail Polish, Gel Polish,Shellac,
+            Matte Nail Polish, Glitter Nail Polish dan lainnya</p>
+        </div>
+        <div class="service">
+          <div class="layanan-3"></div>
+          <h3>Eyelash Extension</h3>
+          <p>Korean Eyelash Extension, Classic Eyelash Extension, Volume Eyelash Extension dan lainnya</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="tentang">
+      <h2 style="text-align: center">Tentang Kami</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Visi</h3>
+          <p>Menjadi studio nail art yang inovatif, terpercaya, dan berkelas, 
+            yang memberikan pengalaman kecantikan kuku terbaik serta 
+            menginspirasi setiap pelanggan untuk mengekspresikan diri melalui seni di ujung jari</p>
+        </div>
+        <div class="service">
+          <h3>Misi</h3>
+          <p>Menyediakan layanan nail art berkualitas tinggi, Menjadi bagian dari gaya hidup modern</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="kontak">
+      <h2 style="text-align: center">Hubungi kami</h2>
+      <form action="">
+        <label>Nama</label>
+        <input type="text" placeholder="Masukkan nama Anda" />
+        <label>Email</label>
+        <input type="email" placeholder="Masukkan email Anda" />
+        <label>Pesan</label>
+        <textarea rows="5" placeholder="Masukkan pesan Anda"></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; Copyright © 2024 Nail Art Rz</p>
+    </footer>
+  </body>
+</html>
